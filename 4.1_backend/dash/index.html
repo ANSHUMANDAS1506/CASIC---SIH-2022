@@ -1,0 +1,269 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <!--MATERTIAL CDN-->>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@40,500,1,200" />
+
+    <!--STYLESHEET CDN-->>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo1.png">
+                    <h2><span class="danger">CASIC</span> </h2>
+                </div>
+                <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>                        
+                </div>
+            </div>
+            <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#" class="active">
+                <span class="material-icons-sharp">manage_accounts</span>
+                <h3>Account</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">emoji_events</span>
+                <h3>Events</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">school</span>
+                <h3>Web-Shops</h3>
+            </a>            
+            <a href="#">
+                <span class="material-icons-sharp">groups</span>
+                <h3>Community</h3>
+                <span class="message-count" >50</span>
+            </a>
+            <a href="https://casic-calendar.netlify.app/">
+                <span class="material-icons-sharp">calendar_month</span>
+                <h3>Academic Calender</h3>
+                <span class="message-count" >10</span>                
+            </a>            
+            <a href="#">
+                <span class="material-icons-sharp">notifications_active</span>
+                <h3>Notification</h3>
+                <span class="message-count" >5</span>
+            </a>
+            <a href="#">
+                <span class="material-symbols-sharp">campaign</span>
+                <h3>Publicize</h3>   
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+            </div>                  
+        </aside>
+
+        <!--------------------------------END OF ASIDE-------------------------------------------------------->
+        <main>
+            <section class="glass">
+                <div class="dashboard">
+                  <div class="links">
+                    <div class="link">
+                      <h2></h2>
+                    </div>
+                    <div class="link">
+                      <h2>Instagram Pannel</h2>
+                    </div>
+                    <div class="link">
+                      <h2>Linked In Pannel</h2>
+                    </div>
+                    <div class="link">
+                      <h2>Registration Pannel</h2>
+                    </div>
+                  </div>
+                  <div class="pro">
+                    <h2>Join  CASIC.</h2>
+                  </div>
+                </div>
+                <div class="games">
+                  
+                    <h1>Advertisement Form</h1>
+                  
+        
+                    <div class="container">
+        
+                      
+                      <div class="cards">
+                        <div class="card">
+                          <div class="card-info">
+                            <form action="advertise.php" method="POST">
+                              <input type="text" name="name" placeholder="Full Name" required>
+                              <input type="email" name="email" placeholder="Email" required>
+                              <input type="text" name="organisation" placeholder="Name of Organisation" required>
+                              <input type="text" name="poster" placeholder="Poster Link" required>
+                              <input type="text" name="linked_profile" placeholder="Linked In Page of Organisation">
+                              <select name="state" >
+                                  <option value='odisha'>Odisha</option>
+                                  <option value='west_bengal'>west Bengal</option>
+                                  <option value='bihar'>Bihar</option>
+                                  <option value='maharahtra'>Maharashtra</option>
+                                  <option value='kerela'>Kerela</option>
+                                  <option value='gujarat'>Gujarat</option>
+                                  <option value='rajasthan'>Rajasthan</option>
+                                  <option value='tamil_naidu'>Tamil Naidu</option>
+                              </select>
+                              <input type="text" name="description1" placeholder="Description of  post" required>
+                              <a href="http://localhost/casic_signup/backend/index.php">
+                               <button type="submit">Send</button>
+                              </a>
+                          </form>
+                          </div>
+                        </div>
+        
+        
+        
+        
+                    </div>
+                  
+        
+        
+        
+                  </div>
+                </div>
+              </section>
+           
+     
+            
+
+            <!-----------------END OF INSIGHTS------------------------------------------>
+            
+        </main>
+        <!--------------------------------END OF MAIN------------------------------------------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey,<b>Harsh Kumar</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" >
+                    </div>
+                </div>
+            </div>
+            <!----------------------END OF TOP---------------------->
+            <div class="recent-updates">
+                <h2>Recents</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Madhur Patel</b> also participated in
+                            VIT Tech week.</p>
+                            <small class="">10 Minutes Ago!</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Shashank Suggala</b> also participated in
+                                 IITB E-CELL 
+                                 Mania  .</p>
+                            <small class="">4 Hours Ago!</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-4.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Sweta Soundarya</b> also registered for SIH 2022.</p>
+                            <small class="">6 Hours Ago!</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-4.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Sushrith Reddy</b> also registered NIT CodeFest.</p>
+                            <small class="">23 Hours Ago!</small>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+                <!-----------------------END OF RECENT UPDATES----------------->
+                <div class="sales-analytics">
+                    <h2>SCOPES</h2>
+                    <div class="item online">
+                        <div class="icon">
+                            <span class="material-icons-sharp">alarm_add</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Online Internships</h3>
+                                <small class="text-muted">Last 24 Hours!</small>
+                            </div>
+                            <h5 class="success">+5new</h5>
+                            <h3>10</h3>
+                        </div>
+                    </div>
+                    <div class="item offline">
+                        <div class="icon">
+                            <span class="material-icons-sharp">alarm_add</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Offline Internships</h3>
+                                <small class="text-muted">Last 24 Hours!</small>
+                            </div>
+                            <h5 class="success">+2new</h5>
+                            <h3>4</h3>
+                        </div>
+                    </div>
+                    <div class="item tasks">
+                        <div class="icon">
+                            <span class="material-icons-sharp">alarm_add</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Research Program</h3>
+                                <small class="text-muted">Last 24 Hours!</small>
+                            </div>
+                            <h5 class="success">+2new</h5>
+                            <h3>3</h3>
+                        </div>
+                    </div>
+                    <div class="item add-product">
+                        <div>
+                            <span class="material-icons-sharp">add_task</span>
+                            <h3>Add Tasks</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <!-- Google Font Links -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Pompiere|Poppins|Nunito" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./Stylesheets/index.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+     <!-- Bootstrap Scripts -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sign-up-section">
+        <div class="parent-div">
+            <div class="form-side">
+                <div class="sep-class">
+                    <div class="sign-in-line">
+                        <p>Have an account?</p>
+                        <a href="">Sign In</a>
+                    </div>
+                    <div class="welcome-div">
+                        <h1>Welcome to CAS<span>IC</span></h1>
+                        <p class="p-1 p-2">The best helper for the students 
+                            as well as academic institutions
+                            as well as academic institutions
+                            as well as academic institutions
+                        </p>
+                    </div>
+                    <form action="register.php" method="post">
+
+                        <!-- Name -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form2Example1" class="form-control" name="name"/>
+                            <label class="form-label" for="form2Example1">Name</label>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form2Example1" class="form-control" name="mobile"/>
+                            <label class="form-label" for="form2Example1">Mobile Number</label>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form2Example1" class="form-control" name="email"/>
+                            <label class="form-label" for="form2Example1">Email address</label>
+                          </div>
+                      
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                          <input type="password" id="form2Example2" class="form-control" name="password" />
+                          <label class="form-label" for="form2Example2">Password</label>
+                        </div>
+                      
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-4">
+                          <div class="col d-flex justify-content-center">
+                            <!-- Checkbox -->
+                            <!-- <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                              <label class="form-check-label" for="form2Example31"> Remember me </label>
+                            </div> -->
+                          </div>
+                      
+                          <!-- <div class="column12">
+                            <a href="#!">Forgot password?</a>
+                          </div> -->
+                        </div>
+                      
+                        <!-- Submit button -->
+                        <div class="boot-sign-up">
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Create Account</button>
+                        </div>
+                      
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                          <p>or sign up with:</p>
+                          <!-- <button type="button" class="button-">
+                            <i class="fab fa-facebook-f"></i>
+                          </button> -->
+
+                          
+                        <button type="button" class="login-with-google-btn" >
+                            Sign in with Google
+                        </button>  
+                      
+                          <!-- <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                          </button> -->
+                      
+                          <!-- <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                          </button> -->
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <div class="ui-side">
+                <div class="main-div">
+                    <div>
+                        <img src="./Images/Digital presentation-pana.svg">
+                    </div>
+                </div>
+                <!-- <div class="side-div"></div> -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
