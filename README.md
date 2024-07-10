@@ -42,7 +42,7 @@ APIs: Integration with calendar APIs for real-time updates
 
 # Landing Page
 
-![Landing Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Landing Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/login.png)
 
 # Authentication Page
 
