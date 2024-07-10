@@ -1,4 +1,4 @@
-# CASIc: College Activities and Events Integration Calendar
+# CASIC: College Activities and Events Integration Calendar
 
 ## Overview
 
@@ -39,3 +39,19 @@ Backend: Php, XAMPP
 Database: MYSQL
 
 APIs: Integration with calendar APIs for real-time updates
+
+# Landing Page
+
+![Landing Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+# Authentication Page
+
+![Authentication Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+# Database
+
+![Backend Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+# Dashboard
+
+![Dashboard Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
