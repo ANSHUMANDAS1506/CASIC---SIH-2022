@@ -70,6 +70,12 @@ APIs: Integration with calendar APIs for real-time updates
 
 ![Calendar](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/evo%20calendar.png)
 
+# Team
 
+## Homies
 
-# Team 
+![Homies](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/Homies.jpg)
+
+## SIH 2022 Memories
+
+![Team](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/SIH%202022%20Team.JPG)
