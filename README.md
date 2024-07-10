@@ -42,16 +42,28 @@ APIs: Integration with calendar APIs for real-time updates
 
 # Landing Page
 
-![Landing Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/login.png)
+![Landing Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/landing.png)
 
 # Authentication Page
 
-![Authentication Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Login Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/login.png)
+
+![Registration Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/Registration.png)
 
 # Database
 
-![Backend Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Backend Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/Db.png)
 
 # Dashboard
 
-![Dashboard Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+## Light
+
+![Dashboard Page](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/student%20admin%20dash.png)
+
+## Dark
+
+![Dashboard Page2](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/dashboard%20dark.png)
+
+# Calendar
+
+![Calendar](https://github.com/ANSHUMANDAS1506/CASIC---SIH-2022/blob/main/Images/evo%20calendar.png)
